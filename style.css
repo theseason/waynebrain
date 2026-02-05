@@ -80,6 +80,10 @@ header.scrolled {
 .hero {
     height: 100vh; width: 100%;
     background: #9e6e07; color: #fff;
+    background-image: url('img/background-hare.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     display: flex; justify-content: center; align-items: center;
     text-align: center;
 }
@@ -98,6 +102,8 @@ header.scrolled {
 
 .links-container {
     width: 100%;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .links-container h2 {
@@ -129,7 +135,7 @@ header.scrolled {
 
 .link-item a {
     display: block;
-    padding: 40px 60px;
+    padding: 40px 0px;
     background: #ffffff;
     color: #000000;
     text-decoration: none;
